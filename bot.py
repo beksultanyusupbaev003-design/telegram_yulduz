@@ -9,7 +9,7 @@ from telegram.ext import (
     filters, ContextTypes, ConversationHandler
 )
 
-TOKEN = os.environ.get("BOT_TOKEN", "8997822170:AAFXIeBOwH3l8Vx2aWke1v4L03LF4FDFhvQ")
+TOKEN = os.environ.get("8997822170:AAFXIeBOwH3l8Vx2aWke1v4L03LF4FDFhvQ", "8997822170:AAFXIeBOwH3l8Vx2aWke1v4L03LF4FDFhvQ")
 USERS_FILE = "users.json"
 
 # Conversation states
